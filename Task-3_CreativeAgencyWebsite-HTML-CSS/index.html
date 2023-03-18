@@ -1,83 +1,97 @@
 <html>
-    <head>
-        <title>Real Estate Marketplace</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Wellfleet&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <div class="wholePage">
+
+<head>
+    <title>Real Estate Marketplace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wellfleet&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wholePage">
         <div class="Home">
-        <header class="Header">
-            <div class="Logo">
-                <img  class="first" src="./assets/logoL1.png"/>
-                <img src="./assets/logoL2.png"/>
-                <span>Dream Home<span/>
+            <header class="Header">
+                <div class="Logo">
+                    <img class="first" src="./assets/logoL1.png" />
+                    <img src="./assets/logoL2.png" />
+                    <span>Dream Home<span />
+                </div>
+                <div class="header-text">
+                    <span>Home</span>
+                    <span>About Us</span>
+                    <button class="Enquire">Enquire Now</button>
+                </div>
+            </header>
+            <div class="home-Text">
+                <h1>Find Your <span class="yellow">Dream House</span></h1>
+                <h1>@ San Diego</h1>
             </div>
-            <div class="header-text">
-            <span>Home</span>
-            <span>About Us</span>
-            <button class="Enquire">Enquire Now</button>
+            <div class="home-border"></div>
         </div>
-        </header>
-        <div class="home-Text">
-            <h1>Find Your <span class="yellow">Dream House</span></h1>
-            <h1>@ San Diego</h1></div>
-        <div class="home-border"></div>
-    </div>
-    <div class="About">
-        <div class="Left">
-            <h1>About Us</h1>
-            <p>Dream Home is a gated community with a great location. Located downtown, you’re within walking distance of Parks, and the best shopping, dining and entertainment Getting around is a breeze, with easy access to freeways, buses and trolleys. . Laundry is available on premises.</p>
-            <button class="ReadMore">Read More</button>
-        </div>
-        <div class="right">
-            <div class="Section">
-                <h1>500+</h1>
-                <span>Projects</span>
-                <p>Over 500 lexury villas for“Home Away From Home” experience</p>
+        <div class="About">
+            <div class="Left">
+                <h1>About Us</h1>
+                <p>Dream Home is a gated community with a great location. Located downtown, you’re within walking
+                    distance of Parks, and the best shopping, dining and entertainment Getting around is a breeze, with
+                    easy access to freeways, buses and trolleys. . Laundry is available on premises.</p>
+                <button class="ReadMore">Read More</button>
             </div>
-            <div class="Section">
-                <h1>40+</h1>
-                <span>Locations</span>
-                <p>luxury villas and private holiday homes, from all across</p>
-            </div>
-            
-            <div class="Section">
-                <h1>24/7</h1>
-                <span>Help</span>
-                <p>24/7 Help service for all customers to guide and support</p>
+            <div class="right">
+                <div class="Section">
+                    <h1>500+</h1>
+                    <span>Projects</span>
+                    <p>Over 500 lexury villas for“Home Away From Home” experience</p>
+                </div>
+                <div class="Section">
+                    <h1>40+</h1>
+                    <span>Locations</span>
+                    <p>luxury villas and private holiday homes, from all across</p>
+                </div>
+
+                <div class="Section">
+                    <h1>24/7</h1>
+                    <span>Help</span>
+                    <p>24/7 Help service for all customers to guide and support</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="AboutPage">
-        <div class="Left">
-            <h1>Did You Find Your <span class="yellow">Dream Home?</span></h1>
-            <p>Thank you for getting in touch! if you find your dream home connect with us</p>
-        </div>
-        <div class="right">
-            <form class="form">
-                <input type="text" placeholder="Your Name"/>
-                <input type="text" placeholder="Your Email"/>
-                <input type="text" placeholder="Phone Number"/>
-                <datalist>
-                    <option value="Internet Explorer">
+        <div class="AboutPage">
+            <div class="Left">
+                <h1>Did You Find Your <span class="yellow">Dream Home?</span></h1>
+                <p>Thank you for getting in touch! if you find your dream home connect with us</p>
+            </div>
+            <div class="right">
+                <form class="form">
+                    <div class="form12">
+                        <input type="text" placeholder="Your Name" />
+                        <input type="text" placeholder="Your Email" />
+                    </div>
+                    <div class="form34">
+                        <input type="text" placeholder="Phone Number" />
+                        <input list="myUL" type="text" / placeholder="Interested In">
+
+                    </div>
+                    <datalist id="myUL" aria-placeholder="Interested In">
+                        <option value="Internet Explorer">
                         <option value="Firefox">
                         <option value="Chrome">
                         <option value="Opera">
                         <option value="Safari">
-                </datalist>
-                <input type="text" placeholder="Message"/>
-            </form>
+                    </datalist>
+                    <input class="message" type="text" placeholder="Message" />
+                    <button class="Submit">Submit</button>
+
+                </form>
+            </div>
         </div>
-    </div>
+        <!--
     <footer>
         <div>
             <div class="Logo">
@@ -101,6 +115,8 @@
             </div>
         </div>
     </footer>
-</div>
-    </body>
+    -->
+    </div>
+</body>
+
 </html>
