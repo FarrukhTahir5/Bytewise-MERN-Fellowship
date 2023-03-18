@@ -1,5 +1,6 @@
 body{
     color: white;
+    background-color: #1b1b1b;
     margin: 0px;
     font-family: 'Inter', sans-serif;
 }
@@ -8,18 +9,23 @@ body{
     flex-direction: column;
 }
 .Home{   
+    background-color: #1b1b1b;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0,0,0,0));
+-webkit-mask-image: -webkit-gradient(linear, left center, left bottom, from(rgb(160, 12, 12)), to(rgba(0, 0, 0, 0)));
     display: flex;
     flex-direction: column; 
-    background-size: 100%,100%;
+    justify-content: center;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     background-image: url("./assets/house.png");
 }
+
 .Header{
     align-items: center;
     padding-top: 15px;
     display: flex;
-    
+    justify-content: space-around;
     padding-left: 100px;
     padding-bottom: 100px;
     display:flex;
@@ -98,4 +104,56 @@ letter-spacing: 0.03em;
 }
 .About{
     background-color: #1b1b1b;
+}
+.home-Text>h1{
+    font-size: 4.5vw;  
+    margin-bottom: 10.4vw;
+}
+.About{
+    
+    font-weight: 200;
+    flex-direction: row;
+    background-color: #1b1b1b;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0,0,0,0));
+-webkit-mask-image: -webkit-gradient(linear, left center, left bottom, from(rgb(160, 12, 12)), to(rgba(0, 0, 0, 0)));
+    display: flex; 
+    justify-content: space-between;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("./assets/buildings.png");
+
+}
+.About>.Left{
+    
+    margin-top: 20vw;
+    margin-left: 15vw;
+    margin-right: 100px;
+    margin-bottom: 20vw;
+    flex-flow:column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 35vw;
+}
+.About>.Left>h1{
+    font-size: 2vw;
+    color: #ff9505;
+    margin: 0px;
+}
+.ReadMore{
+    background: #FFFBFB;
+border-radius: 8px;
+ padding: 12px 16px;
+ font-weight: bold;
+ 
+}
+.About>.right{
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.About>.right>.Section>h1{
+    font-size: 2vw;
+    margin: 0px;
 }
