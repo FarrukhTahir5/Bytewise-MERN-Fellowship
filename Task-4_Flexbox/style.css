@@ -1,0 +1,113 @@
+body {
+    background-color: #090c26;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    margin-bottom: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.menu{
+    display: flex;
+}
+.menu>a {
+    font-weight: 500;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+}
+
+.selected {
+    color: #3a68ca;
+}
+
+.hireButton {
+    display: flex;
+    background-color: #0d47c5;
+    border-radius: 30px;
+    
+    min-width: 5vw;
+    min-height: 2vw;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    color: #0d4eca;
+}
+
+.mainContent {
+    display: flex;
+
+}
+
+.pageDetails {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.pageImg{
+    margin-left: 10vw;;
+}
+.pageImg>img{
+    
+    width: 100%;
+  max-width: 450px;
+  height: auto
+}
+
+.Title {
+    font-weight: 700;
+    font-size: 5.5vw;
+    line-height: 6.3vw;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+
+.subline {
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 31px;
+    margin-bottom: 64px;
+}
+
+.lastDetails {
+    display: flex;
+    align-items: center;
+}
+
+.seePort>button {
+    width: 16vw;
+    height: 4.6vw;
+
+    background: linear-gradient(180deg, #1877F2 0%, #0530AD 100%);
+    border-radius: 48px;
+    font-weight: 500;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.que {
+    margin-left: 48px;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
