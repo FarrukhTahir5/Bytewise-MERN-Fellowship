@@ -6,8 +6,8 @@
 }
 
 @mixin commoncode($par1) {
-    letter-spacing: $par1+10rem;
-    color: black;
+    letter-spacing: $par1;
+    color: blue;
     font-size: 5rem+5rem;
     text-transform: capitalize;
 }

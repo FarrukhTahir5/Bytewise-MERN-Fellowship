@@ -1,5 +1,5 @@
-@import "mixin";
-@import "var";
+@import 'mixing','var';
+
 * {
     margin: 0;
     padding: 0;
@@ -9,19 +9,24 @@
 html {
     font-size: 62.5%;
 }
+
 .main-header {
     width: 100vw;
     height: 100vh;
     @include flexprob;
     background-color: $bg-color;
+
     h1 {
         @include commoncode(1.5rem);
+
         &:hover {
             color: #f1c40f;
         }
     }
+
     p {
         @include commoncode(0.3rem);
+
         &:hover {
             color: #f1c40f;
         }

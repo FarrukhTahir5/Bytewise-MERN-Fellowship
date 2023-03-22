@@ -19,7 +19,7 @@ html {
 }
 .main-header h1 {
   letter-spacing: 1.5rem;
-  color: black;
+  color: blue;
   font-size: 10rem;
   text-transform: capitalize;
 }
@@ -28,10 +28,10 @@ html {
 }
 .main-header p {
   letter-spacing: 0.3rem;
-  color: black;
+  color: blue;
   font-size: 10rem;
   text-transform: capitalize;
 }
 .main-header p:hover {
   color: #f1c40f;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=style.css.map */
