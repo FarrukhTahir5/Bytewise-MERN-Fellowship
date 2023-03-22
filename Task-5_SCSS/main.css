@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1c40f;
+}
+.main-header h1 {
+  letter-spacing: 1.5rem;
+  color: black;
+  font-size: 10rem;
+  text-transform: capitalize;
+}
+.main-header h1:hover {
+  color: #f1c40f;
+}
+.main-header p {
+  letter-spacing: 0.3rem;
+  color: black;
+  font-size: 10rem;
+  text-transform: capitalize;
+}
+.main-header p:hover {
+  color: #f1c40f;
+}/*# sourceMappingURL=main.css.map */
