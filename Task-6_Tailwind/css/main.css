@@ -721,9 +721,15 @@ video {
   background-color: hsl(12 88% 95% / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+=======
+.bg-veryDarkBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(233 12% 13% / var(--tw-bg-opacity));
+>>>>>>> db377a5759c9ccf0205726e0f70e8b8fc8af9986
 }
 
 .bg-veryLightGray {
@@ -736,11 +742,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
 .bg-veryDarkBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(233 12% 13% / var(--tw-bg-opacity));
 }
 
+=======
+>>>>>>> db377a5759c9ccf0205726e0f70e8b8fc8af9986
 .p-3 {
   padding: 0.75rem;
 }
