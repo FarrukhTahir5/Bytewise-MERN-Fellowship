@@ -16,4 +16,7 @@ This is a repository for the tasks assigned to me as part of the Bytewise MERN F
 | 6   | [🌈Learn Tailwind](https://www.youtube.com/watch?v=dFgzHOX84xQ&t=336s) | ✅ | [Manage Landing Page](https://manage-landing-page-x.netlify.app/) |
 | 7   | [🔍Learn JS Fundamentals](https://youtu.be/XIOLqoPHCJ4) | ✅ | - |
 | 8   | [🤔Learn DOM Manipulation](https://www.youtube.com/watch?v=5fb2aPlgoys) | ✅ | - |
+| 9   | [Learn Async Javascript](https://youtu.be/ZYb_ZU8LNxs) | ✅ | - |
+| 10   | [Build a Todo App with JS](https://youtu.be/y71CdVq5SvI) | ✅ | - |
+| 11   | [Learn React Fundamentals](https://youtu.be/w7ejDZ8SWv8) | ✅ | - |
 
